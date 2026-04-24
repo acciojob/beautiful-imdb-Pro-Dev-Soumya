@@ -1,2 +1,40 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1c1c1c, #383838);
+      color: white;
+      text-align: center;
+    }
 
-/* Your CSS Code here. */
+    .container {
+      position: relative;
+      padding-top: 50px;
+    }
+
+    /* Movie Poster */
+    .moviePic {
+      height: 400px;
+      width: 270px;
+      opacity: 0.9;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+      transition: transform 0.3s ease;
+    }
+
+    .moviePic:hover {
+      transform: scale(1.05);
+    }
+
+    /* Movie Description */
+    .movieDetail {
+      position: relative;
+      top: 30px;
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.6;
+      background: rgba(0,0,0,0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
